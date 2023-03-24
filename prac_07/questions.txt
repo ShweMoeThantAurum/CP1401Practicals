@@ -1,0 +1,31 @@
+Quick Questions
+
+1. Global constants should be placed above the main function in a program.
+2. Two reasons why we should not use global variables:
+        1. All the other functions can use global variables.
+        2. It can be hard to keep track of how and where those variables are being modified.
+3. When we have two variables with the same name but in different functions, these said to have different scopes.
+4. We call the red dot in the margin as "breakpoint" in PyCharm that pauses the program running when using the debugger.
+5. SOME_VALUE is all in capital letters. So, we can assume that it is a constant. Being a constant, it doesn't change
+   its value. But adding 1 can make that constant changeable.
+6. Single Responsibility Principle (SRP) is the single most important design principle for designing functions.
+
+Logic Exercises
+
+I read correctly.
+
+Reflection
+
+    I can easily overcome until the earlier lessons, such as if condition functions as I learnt generally in advance.
+So, the obstacles begun from "for" loops and "while" loops. It took much time to digest lecture lessons and understand
+well. However, I always got the concept at the end of the day. Firstly, the common problem that I usually got is the
+indentation problems. I knew the solution and I knew that my calculation was correct. But, always, it came to the
+indentation. I sat in front of my laptop for an hour or two hours, just watching codes up and down again and again.
+Eventually, when I could fix the error, that error is the indentation error. As I said above, the second struggle I
+felt most is "for" loops and, especially, "while" loops. Error checking was fine, but to loop again was a bit challenging
+for me. I could not make those loops correct and smooth at one time. I was needed to adjust everytime. The last obstacle
+is the dog years problem. It took a lot of time for me to get the solution. I wanted to laugh at myself when I got
+the solution because it, actually, was easy. To conclude, most of the practical lessons were worked out with the teacher.
+The teacher also explained in details. So, all the practical lessons are not that hard. I know the concepts in the
+lecture sessions. Besides, once I do the practicals, combined with the teacher's explanation, I surely understand
+how things work.

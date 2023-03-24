@@ -1,0 +1,19 @@
+# Quick Questions
+
+1. "Command + /" is the PyCharm shortcut key for commenting selected line/s of code.
+2. "Single Responsibility Principle (SRP)" is the most important design principle for designing functions.
+3. "return" is the Python keyword for returning a value from a function.
+4. An argument is a piece of data that is sent into a function. A parameter is a variable inside the function that is
+   assigned to the value of an argument when the function is called.
+5. "random.randint" is the Python function call for generating a random number between 1 and 100.
+6. "print", "input", "range", "int" are 4 functions that we've used in the subject so far.
+7. Lindsay make his coffee with "18.6 grams" of freshly-ground specialty coffee in the lecture video.
+
+# Good Names
+
+1. get_grade
+2. convert_currency
+3. print_report
+4. calculate_average
+5. is_even
+6. validate_salary

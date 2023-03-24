@@ -1,0 +1,39 @@
+#Quick Questions
+
+1. "Ctrl + /" is the PyCharm keyboard shortcut for commenting (out/in) a selection of code.
+2. "For" loops and "While" loops are the two kinds of loops available in Python.
+3. A special value for ending the loop is a "sentinel" (when dealing with loops).
+4. No capital letter in variables, not wellknown, not separated by undersocred.
+5. "x+=y, x-=y, x*=y, x/=y" are the augmented assignment operators.
+
+#Loop outputs
+
+1. 0, 1, 2, 3, 4, 5
+2. 33, 34, 35, 36, 37, 38
+3. 17, 16, 15, 14, 13, 12
+4. 1, 0, 1, 0, 1, 0, 1, 0, 1, 0
+5. 100>64>36>16>4
+
+#Range values
+
+1. range(6)
+2. range(1, 14, 4)
+3. range(3, 0, -1)
+4. range(7, -6, -3)
+
+#Patterns
+
+1. while loop
+2. while loop
+3. for loop
+4. for loop
+5. for loop
+
+#Logic exercise
+
+The fewest number of marbles I could remove the boxes is three marbles.
+
+
+
+
+

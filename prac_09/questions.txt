@@ -1,0 +1,13 @@
+Quick Questions
+
+1. 'r' means read and 'w' means write when opening a file.
+2. A file object is to open a file and process.
+3. It is necessary to close a file after it has been opened and used because data can be lost.
+4. A good principle for deciding whether a literal value should be stored in a CONSTANT is whether the value is fixed or
+   not changed.
+5. A single Python expression that would evaluate to the file extension of a variable like:
+   filename.find(".") + 1 : len(filename)
+
+Logic Exercise
+
+There are exactly 3 false statements in the list.

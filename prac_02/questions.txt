@@ -1,0 +1,12 @@
+Quick Questions
+
+1.	weight_in_pounds, weight_in_kilograms
+2.	s_mt, t_mt
+3.	1_distance, 2_time
+4.	The naming convention of variables is lower cases starting with character, separated by underscored.
+5.	A constant is a number that does not change. One example is VALUE_OF_PI.
+6.	The naming convention of constants is all-in-capitals separated by underscored.
+
+Logic Exercise
+
+The fewest number of socks I can take from the drawer without looking and be sure to get a pair of the same color is 3.

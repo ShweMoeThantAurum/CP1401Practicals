@@ -1,0 +1,24 @@
+# Quick Questions
+
+1. The "not equal to" operator in Python is "!".
+2. The "less than or equal to" operator in Python is "<=".
+3. True "b+c*a>a**b= (3+4)*2>2**3= 7*2>8= 14>8"
+4. True
+5. True
+6. True "(a*b+c)%2==0 = (2*3+4)%2==0 = (6+4)%2==0 = 10%2==0 = 0==0"
+
+#Patterns
+
+1. "if, elif, else" pattern
+2. "if, no else" pattern
+3. "if, if , if" pattern
+4. "if, elif, else" pattern
+5. "if, else" pattern
+6. "if, else" pattern
+7. "if, else" pattern
+
+#Logic Exercise
+
+Alice is the oldest.
+Bill is the youngest.
+

@@ -1,0 +1,28 @@
+Quick Questions
+
+1. Lists are mutable, changeable. On the other hand, tuples are not mutable, meaning that they cannot be modified.
+2. The convention of naming lists is "Plural".
+3. A good name for a list of cities would be "cities".
+4. 536, 870, 912 elements can be stored in a list for 32-bit computers.
+5. False
+6. "len" function in Python counts the elements of the lists. It can be used with integers.
+
+List Warmup
+
+numbers = [10, 20, 40, 81]
+
+numbers[0] = 10
+numbers[-1] = 81
+numbers[3] = 81
+20 in numbers = True
+1 in numbers = False
+numbers[1] + numbers[2] = 60
+len(numbers) = 4
+
+List Warmup Part 2
+
+1. numbers[0] = 1
+2. numbers[-1] = 4
+3. if 1 in numbers
+4. print(numbers[1] * 10)
+
