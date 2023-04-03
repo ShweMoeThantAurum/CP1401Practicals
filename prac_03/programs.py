@@ -39,20 +39,22 @@ print(f"Take home pay is: $ {take_home_pay}.")
 """
 get applicant's age
 if age<18
-    print "Hire refused"
-if age<25
-    print "Insurance required"
-if age>=25
-    print "Insurance not required"
+    result = "Hire refused"
+else if age<25
+    result = "Insurance required"
+else 
+    result = "Insurance not required"
+print result
 """
 
 age = int(input("What is your age?"))
 if age < 18:
-    print("Hire refused")
-if age < 25:
-    print("Insurance required")
-if age >= 25:
-    print("Insurance not required")
+    result = "Hire refused"
+elif age < 25:
+    result = "Insurance required"
+else:
+    result = "Insurance not required"
+print(result)
 
 # Simple Password Checker
 
