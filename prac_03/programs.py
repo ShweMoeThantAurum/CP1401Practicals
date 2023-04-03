@@ -136,33 +136,35 @@ print(message)
 """
 get speed_in_kilometers and speed_limit_in_kilometers
 speed_over_the_limit= speed_limit_in_kilometers-speed_in_kilometers
-if speed_over_the_limit_in_kilometers<13
-    print "Your fine is $177."
+if speed_over_the_limit_in_kilometers<0
+    penalty_amount = 0
+else if speed_over_the_limit_in_kilometers<13
+    penalty_amount = 177
 else if speed_over_the_limit_in_kilometers<=20
-    print "Your fine is $266."
+    penalty_amount = 266
 else if speed_over_the_limit_in_kilometers<=30
-    print "Your fine is $444."
+    penalty_amount = 444
 else if speed_over_the_limit_in_kilometers<=40
-    print "Your fine is $622."
-else if speedlimit-speed_in_kilometers>40
-    print "Your fine is $1245."
-else:
-    print "You are not fined."
+    penalty_amount = 622
+else speedlimit-speed_in_kilometers>40
+    penalty_amount = 1245
+print penalty_amount
 """
 
 speed_in_kilometers = float(input("Please type your speed in kilometers: "))
 speed_limit_in_kilometers = float(input("Please type your speed limit in kilometers: "))
 speed_over_the_limit_in_kilometers = speed_in_kilometers - speed_limit_in_kilometers
 if speed_over_the_limit_in_kilometers < 0:
-    print("You are not fined.")
+    penalty_amount = 0
 elif speed_over_the_limit_in_kilometers < 13:
-    print("Your fine is $177.")
+    penalty_amount = 177
 elif speed_over_the_limit_in_kilometers <= 20:
-    print("Your fine is $266.")
+    penalty_amount = 266
 elif speed_over_the_limit_in_kilometers <= 30:
-    print("Your fine is $444.")
+    penalty_amount = 444.
 elif speed_over_the_limit_in_kilometers <= 40:
-    print("Your fine is $622.")
+    penalty_amount = 622
 else:
-    print("Your fine is $1245.")
+    penalty_amount = 1245
+print(f"Your penalty amount is ${penalty_amount}.")
 
