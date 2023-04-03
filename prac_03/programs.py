@@ -106,28 +106,30 @@ print(f"Age in dog years is {age_in_dog_years}")
 """
 get age
 if age <0 or age>120
-    print "Invalid age"
+    message = "Invalid age"
 else if age <18
-    print "Think big about your future
+    message = "Think big about your future
 else if age <60
-    print "Work hard for your retirement
+    message = "Work hard for your retirement
 else if age <80
-    print "Keep healthy, Stay Strong"
-else if age <=120
-    print "Wow, such an amazing age! Stay healthy"
+    message = "Keep healthy, Stay Strong"
+else
+    message = "Wow, such an amazing age! Stay healthy"
+print message
 """
 
 age = int(input("Please type your age here: "))
 if age < 0 or age > 120:
-    print("Invalid age")
+    message = "Invalid age"
 elif age < 18:
-    print("Think big about your future")
+    message = "Think big about your future"
 elif age < 60:
-    print("Work hard for your retirement")
+    message = "Work hard for your retirement"
 elif age < 80:
-    print("Keep healthy, Stay Strong")
-elif age <= 120:
-    print("Wow, such an amazing age! Stay healthy")
+    message = "Keep healthy, Stay Strong"
+else:
+    message = "Wow, such an amazing age! Stay healthy"
+print(message)
 
 # Speeding fines
 
