@@ -8,7 +8,7 @@ else if income <=500
     total_tax= income*2%
 else if income <=1000
     total_tax= income*5%
-else if income >1000
+else
     total_tax= income*10%
 take_home_pay= income-total_tax
 print total_tax is
@@ -28,7 +28,7 @@ elif income <= TAX_THRESHOLD_MIDDLE:
     total_tax = income * TAX_RATE_MIDDLE
 elif income <= TAX_THRESHOLD_HIGH:
     total_tax = income * TAX_RATE_LOW
-elif income > TAX_THRESHOLD_HIGH:
+else:
     total_tax = income * TAX_RATE_HIGH
 take_home_pay = income - total_tax
 print(f"Total tax is: $ {total_tax}.")
