@@ -61,16 +61,19 @@ print(result)
 """
 get password
 if password = secret password
-    print "Access granted"
+    message = "Access granted"
 else
-    print "Access denied"
+    message = "Access denied"
+print message
 """
+
 SECRET_PASSWORD = "Python"
 password = (input("Please type your password: "))
 if password == SECRET_PASSWORD:
-    print("Access granted")
+    message = "Access granted"
 else:
-    print("Access denied")
+    message = "Access denied"
+print(message)
 
 # Dog Years
 
